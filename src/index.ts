@@ -10,7 +10,7 @@ app.use(bodyParser.json());
 app.use(cors())
 
 app.get("/", (req, res, next) => {
-  res.send("PUBLIC API");
+  res.send("PUBLIC API on AWS");
   next();
 });
 
